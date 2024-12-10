@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:arial,helvetica,sans-serif;
+
+}
+.container{
+    height: 100vh;
+    background-color: pink;
+}
+.nav{
+    display: flex;
+    height: 10vh;
+    background-color: red;
+color:rgb(122, 169, 209);
+
+align-items:center;
+}
+/*check*/
+header{
+    background-color: rgb(146, 127, 255);
+/* height: 100vh; */
+
+}
+a{
+    
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+.navlinks{
+    display: flex;
+    
+    justify-content: space-between;
+    width:100%;
+}
+.logo{
+    width: 10%;
+}
+.nav1,.nav2{
+    width:300%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.banner{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    width: 100%;
+    color:black;
+   
+}
+.hero{
+    font-size: large;
+    margin-top: 200px;
+    color:black;
+}
+#find{
+    border-style: solid;
+    color: black;
+    font-size: medium;
+
+}
+
+.img1{
+    margin-right: 40px;
+    margin-left: 100px;
+}
+.hero2{
+    display: flex;
+    justify-content:space-between;
+}
+.logos{
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+.img{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between
+
+}
+.flexImage {
+    height: 50vh;
+    width: 40%;
+    background-size: cover;
+    border: 2px solid black;
+    display: flex;
+}
+.flexImg1 {
+ 
+    background-image: url(https://www.shutterstock.com/image-photo/picture-shocked-young-brunette-woman-260nw-641814016.jpg)
+}
+.flexImg2 {
+   
+    background-image: url(https://www.shutterstock.com/image-photo/laptop-typing-woman-boutique-fashion-260nw-2348718703.jpg)
+}
+.flexImg3 {
+    
+    background-image: url(https://caliber-kd-shoes.s3.ap-south-1.amazonaws.com/uploads/2024/10/03171731/Adam.webp)
+}
